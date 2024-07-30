@@ -20,8 +20,8 @@ sass:
 
 author:
   name:              Valentina
-  url:               nicoelayda.github.io
-  email:             nico@elayda.com
+  url:               valentinareig.github.io
+  email:             valenreig@gmail.com
 
 plugins:
   - jekyll-coffeescript
