@@ -41,7 +41,7 @@
   flex-direction: column;
   justify-content: center;
   flex: 1;
-  min-width: 0;
+  min-width: 1000;
 }
 
 .text-center {
@@ -49,6 +49,6 @@
   font-size: 1.08rem;
   line-height: 1.6;
   max-width: 1400px;
-  margin: 0;
+  margin: 2;
   padding: 0;
 }
