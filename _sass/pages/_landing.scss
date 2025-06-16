@@ -3,9 +3,34 @@
  * Styles for the landing page
  */
 
+.landing-hero {
+  background: #0074d9;
+  color: #fff;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  border-radius: 1rem;
+  margin-bottom: 2rem;
+}
+
+.profile-image {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-right: 2rem;
+  object-fit: cover;
+  border: 4px solid #fff;
+}
+
+.landing-hero-text .landing-title {
+  margin: 0;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
 .landing-title {
-    color: $post-title-color;
-    text-align: center;
-    border-bottom: 1px solid #c0c0c0;
-    padding-bottom: 0.7rem;
+  color: $post-title-color;
+  text-align: center;
+  border-bottom: 1px solid #c0c0c0;
+  padding-bottom: 0.7rem;
 }
