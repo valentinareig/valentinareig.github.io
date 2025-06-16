@@ -1,0 +1,28 @@
+.landing-hero {
+  display: flex;
+  align-items: center;
+  min-height: 500px;
+}
+
+.profile-image {
+  height: 80vh;
+  max-height: 600px;
+  min-width: 300px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-right: 40px;
+  margin-left: 0;
+  flex-shrink: 0;
+}
+
+.landing-hero-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1;
+}
+
+.landing-title {
+  margin-top: 0;
+  text-align: left;
+}
