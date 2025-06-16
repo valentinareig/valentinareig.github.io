@@ -9,3 +9,26 @@
     border-bottom: 1px solid #c0c0c0;
     padding-bottom: 0.7rem;
 }
+
+/* Add this for side-by-side layout */
+.page {
+    display: flex;
+    align-items: flex-start;
+    gap: 2rem;
+}
+
+/* Keep header and text stacked vertically next to the image */
+.page > header,
+.page > .text-center {
+    flex: 1;
+}
+
+/* Style for the profile image */
+.profile-image {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 1.5rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+}
