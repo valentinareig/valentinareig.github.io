@@ -11,15 +11,11 @@
 }
 
 .profile-image {
-  width: 260px;
-  max-width: 30vw;
+  max-width: 220px;
+  max-height: 300px;
+  width: 100%;
   height: auto;
-  max-height: 400px;
-  object-fit: cover;
   border-radius: 12px;
-  margin-right: 48px;
-  flex-shrink: 0;
-  display: block;
 }
 
 .landing-hero-text {
