@@ -5,34 +5,36 @@
 
 .landing-title {
   color: $post-title-color;
-  text-align: center;
+  text-align: left;  // Left aligned for better appearance in wide layout
   border-bottom: 1px solid #c0c0c0;
   padding-bottom: 0.7rem;
+  margin-bottom: 1.2rem;
+  font-size: 2.6rem;
 }
 
-/* FLEX LAYOUT FOR PAGE */
 .page {
   display: flex;
   align-items: flex-start;
-  gap: 2.5rem;
-  max-width: 900px;
+  gap: 3rem;
+  max-width: 1400px;    // Wider site!
   margin: 3rem auto;
-  padding: 2rem 1rem;
+  padding: 2rem 3rem;
+  background: #fff;     // Optional: add a background if your overall site is not white
+  box-shadow: 0 2px 16px rgba(0,0,0,0.07); // Optional: soft shadow for contrast
+  border-radius: 16px;  // Optional: rounded corners
 }
 
-/* IMAGE */
 .profile-image {
-  width: 170px;       /* rectangle: adjust as needed */
-  height: 250px;      /* rectangle: taller than wide */
+  width: 260px;    // Bigger rectangle
+  height: 370px;   // Taller rectangle
   object-fit: cover;
-  border-radius: 10px; /* rounded corners, use 0 for sharp */
-  box-shadow: 0 2px 12px rgba(0,0,0,0.10);
+  border-radius: 14px; // Slightly rounded corners
+  box-shadow: 0 2px 12px rgba(0,0,0,0.12);
   flex-shrink: 0;
   display: block;
   margin-top: 0.5rem;
 }
 
-/* Make header and text stack vertically to the right of the image */
 .page > header,
 .page > .text-center {
   flex: 1 1 0;
@@ -41,7 +43,7 @@
 
 .text-center {
   text-align: left;
-  font-size: 1.13rem;
+  font-size: 1.25rem;
   line-height: 1.7;
-  margin-top: 0.8rem;
+  margin-top: 1.2rem;
 }
