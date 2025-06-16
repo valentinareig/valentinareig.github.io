@@ -3,15 +3,14 @@
  * Styles for the landing page
  */
 
-
 /* Make the whole page content much wider */
 .page {
   display: flex;
   align-items: flex-start;
-  max-width: 1600px;
+  max-width:2000px;
   margin: 3rem auto 0 auto;
   padding: 2.5rem 3rem;
-  gap: 4rem;               /* More space between image and text */
+  gap: 6rem;               /* More space between image and text */
   min-height: 500px;
 }
 
@@ -36,17 +35,19 @@
 
 .landing-title {
   color: $post-title-color;
-  text-align: center;
+  text-align: center;       /* Title is left-aligned */
   border-bottom: 1px solid #c0c0c0;
   padding-bottom: 0.7rem;
-  margin-bottom: 2.5rem;
+  margin-bottom: 1.5rem;
   font-size: 2.8rem;
   letter-spacing: 0.03em;
+  max-width: 1200px;
 }
+
 .text-center {
   text-align: left;       /* Text is left-aligned and wide */
   font-size: 1.25rem;
   line-height: 1.7;
-  max-width: 900px;
+  max-width: 1200px;
   margin-top: 0.8rem;
 }
