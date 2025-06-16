@@ -11,29 +11,28 @@
   margin-bottom: 2.5rem;
   font-size: 2.4rem;
   letter-spacing: 0.03em;
-  max-width: 1800px;
+  max-width: 800px;         // Limit width for centering
   margin-left: auto;
   margin-right: auto;
 }
 
 .page {
   display: flex;
-  align-items: flex-start;
-  /* Expand page width for larger screens */
-  max-width: 2000px;
-  width: 100%;
-  margin: 0 auto;
-  padding: 2rem 3rem;
-  gap: 4rem;
+  align-items: center;      // Vertically center image and text
+  justify-content: center;  // Center the whole flex block
+  max-width: 800px;         // Match landing-title
+  margin: 0 auto;           // Center .page itself
+  gap: 2.5rem;
+  padding: 0 1rem;          // Only side padding
 }
 
 .profile-image {
-  width: 260px;
-  height: 360px;
+  width: 180px;
+  height: 240px;
   object-fit: cover;
-  border-radius: 6px;
+  border-radius: 8px;
   box-shadow: 0 2px 16px rgba(0,0,0,0.12);
-  flex-shrink: 0;
+  flex-shrink: 0;           // Don't let image shrink
 }
 
 .right-column {
@@ -41,14 +40,13 @@
   flex-direction: column;
   justify-content: center;
   flex: 1;
-  min-width: 1000px;
+  min-width: 0;
 }
 
 .text-center {
-  text-align: center;
-  font-size: 1.08rem;
-  line-height: 1.6;
-  max-width: 800px;
+  text-align: left;
+  font-size: 1.13rem;
+  line-height: 1.7;
   margin: 0;
-  padding: 1rem;
+  padding: 0;
 }
