@@ -2,37 +2,35 @@
  * _landing.scss
  * Styles for the landing page
  */
-
 .landing-title {
   color: $post-title-color;
-  text-align: left;  // Left aligned for better appearance in wide layout
+  text-align: center;
   border-bottom: 1px solid #c0c0c0;
   padding-bottom: 0.7rem;
-  margin-bottom: 1.2rem;
-  font-size: 2.6rem;
+  margin-bottom: 2.5rem;
+  font-size: 2.8rem;
+  letter-spacing: 0.03em;
 }
 
 .page {
   display: flex;
-  align-items: flex-start;
+  align-items: center;       // Vertically center the text next to img
+  justify-content: center;   // Center the entire block
+  max-width: 1300px;         // Wider layout!
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
   gap: 3rem;
-  max-width: 1400px;    // Wider site!
-  margin: 3rem auto;
-  padding: 2rem 3rem;
-  background: #fff;     // Optional: add a background if your overall site is not white
-  box-shadow: 0 2px 16px rgba(0,0,0,0.07); // Optional: soft shadow for contrast
-  border-radius: 16px;  // Optional: rounded corners
+  min-height: 400px;
 }
 
 .profile-image {
-  width: 260px;    // Bigger rectangle
-  height: 370px;   // Taller rectangle
+  width: 260px;
+  height: 370px;
   object-fit: cover;
-  border-radius: 14px; // Slightly rounded corners
-  box-shadow: 0 2px 12px rgba(0,0,0,0.12);
+  border-radius: 12px;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.12);
   flex-shrink: 0;
   display: block;
-  margin-top: 0.5rem;
 }
 
 .page > header,
@@ -42,8 +40,17 @@
 }
 
 .text-center {
-  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;      // Center horizontally!
+  text-align: center;       // Center text!
+  width: 100%;
+}
+
+.text-center p {
+  margin: 1rem 0 0 0;
   font-size: 1.25rem;
   line-height: 1.7;
-  margin-top: 1.2rem;
+  max-width: 650px;
 }
