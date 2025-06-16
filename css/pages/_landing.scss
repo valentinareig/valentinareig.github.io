@@ -1,7 +1,12 @@
 .landing-hero {
   display: flex;
-  align-items: center;
-  min-height: 500px;
+  align-items: center;      // Vertically center content
+  justify-content: flex-start; // Start at left
+  min-height: 80vh;         // Large section
+  width: 100vw;             // Full width of window
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .profile-image {
@@ -13,13 +18,15 @@
   margin-right: 40px;
   margin-left: 0;
   flex-shrink: 0;
+  display: block;
 }
 
 .landing-hero-text {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: center;  // Vertically center text inside text block
   flex: 1;
+  height: 100%;
 }
 
 .landing-title {
