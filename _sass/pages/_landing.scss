@@ -41,14 +41,14 @@
   flex-direction: column;
   justify-content: center;
   flex: 1;
-  min-width: 1000;
+  min-width: 1000px;
 }
 
 .text-center {
-  text-align: center;
+  text-align: left;
   font-size: 1.08rem;
   line-height: 1.6;
-  max-width: 1400px;
-  margin: 2;
+  max-width: 1600px;
+  margin: 0;
   padding: 0;
 }
