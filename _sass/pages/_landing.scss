@@ -4,33 +4,44 @@
  */
 
 .landing-title {
-    color: $post-title-color;
-    text-align: center;
-    border-bottom: 1px solid #c0c0c0;
-    padding-bottom: 0.7rem;
+  color: $post-title-color;
+  text-align: center;
+  border-bottom: 1px solid #c0c0c0;
+  padding-bottom: 0.7rem;
 }
 
 /* FLEX LAYOUT FOR PAGE */
 .page {
-    display: flex;
-    align-items: flex-start;
-    gap: 2rem;
+  display: flex;
+  align-items: flex-start;
+  gap: 2.5rem;
+  max-width: 900px;
+  margin: 3rem auto;
+  padding: 2rem 1rem;
 }
 
-/* Make header and text-center stack vertically to the right of the image */
+/* IMAGE */
+.profile-image {
+  width: 170px;       /* rectangle: adjust as needed */
+  height: 250px;      /* rectangle: taller than wide */
+  object-fit: cover;
+  border-radius: 10px; /* rounded corners, use 0 for sharp */
+  box-shadow: 0 2px 12px rgba(0,0,0,0.10);
+  flex-shrink: 0;
+  display: block;
+  margin-top: 0.5rem;
+}
+
+/* Make header and text stack vertically to the right of the image */
 .page > header,
 .page > .text-center {
-    flex: 1;
-    min-width: 0;
+  flex: 1 1 0;
+  min-width: 0;
 }
 
-/* PROFILE IMAGE STYLES */
-.profile-image {
-    width: 140px;
-    height: 140px;
-    border-radius: 50%;
-    object-fit: cover;
-    margin-top: 1.5rem;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.10);
-    flex-shrink: 0;
+.text-center {
+  text-align: left;
+  font-size: 1.13rem;
+  line-height: 1.7;
+  margin-top: 0.8rem;
 }
