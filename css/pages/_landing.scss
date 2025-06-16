@@ -12,12 +12,11 @@
 
 .profile-image {
   max-width: 220px;
-  max-height: 300px;
   width: 100%;
   height: auto;
   border-radius: 12px;
+  display: block;
 }
-
 .landing-hero-text {
   display: flex;
   flex-direction: column;
