@@ -1,24 +1,23 @@
 .landing-hero {
   display: flex;
   align-items: flex-start;
-  min-height: 80vh;
-  width: 100vw;
-  margin: 0 calc(50% - 50vw);
-  padding: 0 5vw;
-  box-sizing: border-box;
-  background: #fff;
-  z-index: 1;
-  position: relative;
+  min-height: 60vh;
+  margin: 2rem auto;
+  padding: 2rem 1rem;
+  background: var(--bg, #fff); // fallback to white if theme variable missing
+  border-radius: 12px;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.06); // optional for subtle shadow
+  max-width: 900px; // or whatever your theme uses for its content width
 }
 
 .profile-image {
-  height: 80vh;
-  max-height: 600px;
-  min-width: 300px;
+  width: 260px;
+  max-width: 30vw;
+  height: auto;
+  max-height: 400px;
   object-fit: cover;
   border-radius: 12px;
-  margin-right: 80px;
-  margin-left: 0;
+  margin-right: 48px;
   flex-shrink: 0;
   display: block;
 }
@@ -28,10 +27,13 @@
   flex-direction: column;
   justify-content: flex-start;
   flex: 1;
-  height: 100%;
+  min-width: 200px;
 }
 
 .landing-title {
   margin-top: 0;
+  color: var(--primary, #2766ae); // fallback blue if theme variable missing
+  font-size: 2.5rem;
+  font-weight: bold;
   text-align: left;
 }
