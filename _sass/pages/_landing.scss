@@ -3,34 +3,33 @@
  * Styles for the landing page
  */
 
-/* Make the whole page content much wider */
-header {
-  width: 100%;
-  display: block;
-}
-
 .landing-title {
+  color: $post-title-color;
   text-align: center;
-  margin: 2rem auto 2.5rem auto;
-  padding-bottom: 1rem;
-  font-size: 3rem;
   border-bottom: 1px solid #c0c0c0;
+  padding-bottom: 0.7rem;
+  margin-bottom: 2.5rem;
+  font-size: 2.4rem;
+  letter-spacing: 0.03em;
   max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .page {
   display: flex;
-  flex-direction: row;
   align-items: flex-start;
+  /* Expand page width for larger screens */
   max-width: 2000px;
+  width: 100%;
   margin: 0 auto;
-  padding: 2.5rem 3rem;
-  gap: 6rem;
+  padding: 2rem 3rem;
+  gap: 4rem;
 }
 
 .profile-image {
-  width: 320px;
-  height: 440px;
+  width: 260px;
+  height: 360px;
   object-fit: cover;
   border-radius: 12px;
   box-shadow: 0 2px 16px rgba(0,0,0,0.12);
@@ -42,12 +41,14 @@ header {
   flex-direction: column;
   justify-content: center;
   flex: 1;
+  min-width: 0;
 }
 
 .text-center {
   text-align: left;
-  font-size: 1.25rem;
-  line-height: 1.7;
-  max-width: 1400px;
-  margin-top: 0.8rem;
+  font-size: 1.08rem;
+  line-height: 1.6;
+  max-width: 1000px;
+  margin: 0;
+  padding: 0;
 }
