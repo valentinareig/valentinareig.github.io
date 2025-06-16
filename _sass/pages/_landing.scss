@@ -4,50 +4,50 @@
  */
 
 /* Make the whole page content much wider */
+header {
+  width: 100%;
+  display: block;
+}
+
+.landing-title {
+  text-align: center;
+  margin: 2rem auto 2.5rem auto;
+  padding-bottom: 1rem;
+  font-size: 3rem;
+  border-bottom: 1px solid #c0c0c0;
+  max-width: 1200px;
+}
+
 .page {
   display: flex;
+  flex-direction: row;
   align-items: flex-start;
-  max-width:2000px;
-  margin: 3rem auto 0 auto;
+  max-width: 2000px;
+  margin: 0 auto;
   padding: 2.5rem 3rem;
-  gap: 6rem;               /* More space between image and text */
-  min-height: 500px;
+  gap: 6rem;
 }
 
 .profile-image {
-  width: 320px;            /* Bigger rectangle */
-  height: 440px;           /* Even taller rectangle */
+  width: 320px;
+  height: 440px;
   object-fit: cover;
   border-radius: 12px;
   box-shadow: 0 2px 16px rgba(0,0,0,0.12);
   flex-shrink: 0;
-  display: block;
 }
 
-/* Right column: stack header+text vertically and use full width */
-.page > .right-column {
+.right-column {
   display: flex;
   flex-direction: column;
   justify-content: center;
   flex: 1;
-  min-width: 0;
-}
-
-.landing-title {
-  color: $post-title-color;
-  text-align: center;       /* Title is left-aligned */
-  border-bottom: 1px solid #c0c0c0;
-  padding-bottom: 0.7rem;
-  margin-bottom: 1.5rem;
-  font-size: 2.8rem;
-  letter-spacing: 0.03em;
-  max-width: 1200px;
 }
 
 .text-center {
-  text-align: left;       /* Text is left-aligned and wide */
+  text-align: left;
   font-size: 1.25rem;
   line-height: 1.7;
-  max-width: 1200px;
+  max-width: 1400px;
   margin-top: 0.8rem;
 }
