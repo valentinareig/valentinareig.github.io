@@ -14,7 +14,7 @@ title: Research
   <br><small>Previously circulated as <em>Drug Shortages: Evidence from France</em>.</small>
   <details>
     <summary><small><strong>Abstract</strong></small></summary>
-    <small>[Drug shortages are widespread. We model capacity choice by a firm supplying multiple
+    <small>Drug shortages are widespread. We model capacity choice by a firm supplying multiple
 countries under regulated prices: supply shocks leave highest-price countries fully
 served, middle-price countries rationed, and lowest-price countries excluded. We
 develop a method to measure shortages using only national sales data. Applied to
@@ -23,7 +23,7 @@ probability. Higher French prices reduce both shortage probability and magnitude
 higher UK prices reduce probability but raise magnitude, and higher Polish prices
 reduce both, consistent with the model's capacity and allocation channels.
 Antipsychotic counterfactuals show targeted price increases substantially reduce
-shortages at limited cost.]</small>
+shortages at limited cost.</small>
   </details>
   </li> 
   </p>
