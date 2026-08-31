@@ -10,7 +10,7 @@ title: Research
   <li> Retention by Design: Long-term Contracts in Health Insurance (Job Market Paper). <em></em></li>
   </p>
  <p>
-  <li>   <a href="/assets/DuboisMajewskaReig.pdf">Regulated Prices, Global Capacity, and Drug Shortages</a> – <em>with Pierre Dubois and Gosia Majewska, 2026 (Submitted)</em>
+  <li>   <a href="/assets/DuboisMajewskaReig.pdf">Regulated Prices, Global Capacity, and Drug Shortages</a> – <em>with Pierre Dubois and href="https://gosia-majewska.github.io/">Gosia Majewska<, 2026 (Submitted)</em>
   <br><small>Previously circulated as <em>Drug Shortages: Evidence from France</em>.</small>
   <details>
     <summary><small><strong>Abstract</strong></small></summary>
