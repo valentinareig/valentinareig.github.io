@@ -2,6 +2,10 @@
  * _landing.scss
  * Styles for the landing page
  */
+/* Give the homepage more horizontal space */
+.container.content {
+  max-width: 75rem;
+}
 
 .landing-title {
   color: $post-title-color;
@@ -24,6 +28,17 @@
   margin: 0 auto;
   gap: 3.5rem;
   padding: 0 1rem;
+}
+
+.right-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1 1 800px;
+  width: 100%;
+  min-width: 0;
+  min-height: 390px;
+  padding: 1.5rem 2rem;
 }
 
 .profile-image {
