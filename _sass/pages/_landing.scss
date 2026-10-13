@@ -11,28 +11,27 @@
   margin-bottom: 2.5rem;
   font-size: 2.4rem;
   letter-spacing: 0.03em;
-  max-width: 800px;         // Limit width for centering
+  max-width: 800px;
   margin-left: auto;
   margin-right: auto;
 }
 
 .page {
   display: flex;
-  align-items: center;      // Vertically center image and text
-  justify-content: left;  // Center the whole flex block
-  max-width: 1000px;         // Match landing-title
-  margin: 0 auto;           // Center .page itself
-  gap: 3rem;
-  padding: 0 1rem;          // Only side padding
+  align-items: center;
+  justify-content: left;
+  max-width: 1150px;
+  margin: 0 auto;
+  gap: 3.5rem;
+  padding: 0 1rem;
 }
-
 
 .profile-image {
   width: 260px;
   height: 360px;
   object-fit: cover;
   border-radius: 6px;
-  box-shadow: 0 2px 16px rgba(0,0,0,0.12);
+  box-shadow: 0 2px 16px rgba(0, 0, 0, 0.12);
   flex-shrink: 0;
   margin-left: -120px;
 }
@@ -41,20 +40,22 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  flex: 1;
+  flex: 1 1 760px;
+  width: 100%;
   min-width: 0;
+  min-height: 390px;
+  padding: 1.5rem 2rem;
 }
 
 .text-center {
   text-align: center;
-  font-size: 1.13rem;
+  font-size: 1rem;
   line-height: 1.7;
   margin: 0;
-  padding: 1rem;
+  padding: 0;
 }
 
-
-/* Make layout stack on small screens */
+/* This section must stay at the bottom */
 @media (max-width: 700px) {
   .page {
     flex-direction: column;
@@ -63,13 +64,21 @@
     max-width: 100%;
     padding: 0 0.5rem;
   }
+
   .profile-image {
     width: 60vw;
     height: auto;
     margin: 0 auto;
   }
+
+  .right-column {
+    width: 100%;
+    min-height: auto;
+    padding: 1rem 0.5rem;
+  }
+
   .text-center {
-    font-size: 2rem;
-    padding: 0.5rem 0;
+    font-size: 1rem;
+    padding: 0;
   }
 }
