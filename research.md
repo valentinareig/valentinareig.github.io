@@ -28,7 +28,12 @@ shortages at limited cost.</small>
   </li> 
   </p>
  <p>
-  <li> Gender-based Pricing Ban in Health Insurance: Evidence from Chile. <em></em></li>
+  <li> Gender-based Pricing Ban in Health Insurance: Evidence from Chile. <em></em>
+   <details>
+    <summary><small><strong>Abstract</strong></small></summary>
+    <small> Regulation in health insurance aims to reduce inefficiencies while addressing redistribution across demographic groups. We study a regulation in Chile's private health insurance market that bans pricing plans by gender. While this ban may benefit some demographic groups, it can also increase adverse selection and raise prices. Using administrative data from Chile, we estimate a discrete choice model of demand for health insurance plans that includes the distribution of expected individual medical costs. We combine it with a pricing model that accounts for insurer competition. Using this model, we evaluate how insurers adjust their pricing and plan offerings in response to the regulation, and how they would adjust their prices under alternative regulatory policies. Our results show that after the policy, consumer surplus increased for women and decreased for men. Focusing only on the price effect, without accounting for the change in plan offerings, would underestimate the losses of men. These findings highlight the importance of considering both price effects and insurer responses when designing health insurance regulations, providing insights for policymakers seeking to balance efficiency and redistribution.</small>
+  </details>
+  </li>  
  </p>
 </ul>
 
