@@ -1,13 +1,14 @@
 /**
  * _landing.scss
- * Styles for the landing page
+ * Styles for the homepage
  */
 
-/* Make the homepage wider on desktop */
+/* Give the homepage a moderate width on desktop */
 .container.content {
   max-width: 55rem;
 }
 
+/* Homepage title */
 .landing-title {
   color: $post-title-color;
   text-align: center;
@@ -26,7 +27,7 @@
   align-items: center;
   gap: 3rem;
   width: 100%;
-  max-width: 1150px;
+  max-width: 58rem;
   margin: 0 auto;
   padding: 0 1rem;
 }
@@ -41,8 +42,8 @@
 }
 
 .right-column {
-  min-width: 0;
   width: 100%;
+  min-width: 0;
   min-height: 360px;
   display: flex;
   align-items: center;
@@ -59,33 +60,51 @@
 
 /* Job Market Paper section */
 .job-market-paper {
-  display: block;
-  clear: both;
+  display: grid;
+  grid-template-columns: 150px minmax(0, 1fr);
+  gap: 3rem;
   width: 100%;
   max-width: 900px;
-  margin: 4rem auto 2rem;
+  margin: 5rem auto 2rem;
   padding: 0 1rem;
+  color: #2f2a24;
 }
 
-.job-market-paper h2 {
-  color: $post-title-color;
-  font-size: 1.8rem;
-  border-bottom: 1px solid #c0c0c0;
-  padding-bottom: 0.5rem;
-  margin-bottom: 1.5rem;
+.paper-label {
+  padding-top: 0.35rem;
+  border-top: 1px solid #c7b9a5;
+  color: #7b6a58;
+  font-size: 0.95rem;
+  line-height: 1.4;
 }
 
-.job-market-paper h3 {
-  font-size: 1.3rem;
-  margin-bottom: 0.5rem;
+.paper-content {
+  min-width: 0;
 }
 
-.job-market-paper h3 a {
-  color: $post-title-color;
+.paper-content h2 {
+  margin: 0 0 1rem;
+  font-size: 1.35rem;
+  font-weight: normal;
+  line-height: 1.35;
+  color: #2f2a24;
 }
 
-.job-market-paper p {
+.paper-content h2 a {
+  color: #2f2a24;
+}
+
+.paper-content h2 a:hover,
+.paper-content h2 a:focus {
+  color: #7b6a58;
+}
+
+.paper-content p {
+  margin: 0;
+  color: #4b443d;
+  font-size: 1rem;
   line-height: 1.7;
+  text-align: left;
 }
 
 /* Mobile layout */
@@ -100,6 +119,7 @@
     align-items: center;
     gap: 1rem;
     width: 100%;
+    max-width: 100%;
     padding: 0 0.5rem;
   }
 
@@ -122,7 +142,24 @@
   }
 
   .job-market-paper {
-    margin-top: 3rem;
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    margin: 3.5rem auto 2rem;
     padding: 0 0.5rem;
+  }
+
+  .paper-label {
+    margin-bottom: 1rem;
+    padding-top: 0.5rem;
+  }
+
+  .paper-content h2 {
+    font-size: 1.2rem;
+  }
+
+  .paper-content p {
+    font-size: 1rem;
+    line-height: 1.6;
   }
 }
