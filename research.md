@@ -7,7 +7,7 @@ title: Research
 </p> </h2>
 <ul>
  <p>
-  <li> <a href="/assets/Reig_jmp.pdf">Retention by Design: Long-term Contracts in Health Insurance </a> (Job Market Paper). <em></em>
+  <li> <a href="/assets/Reig_jmp.pdf">Retention by Design: Long-term Contracts in Health Insurance </a> <em>(Job Market Paper).</em>
 <details>
     <summary><small><strong>Abstract</strong></small></summary>
     <small> 
@@ -15,6 +15,7 @@ title: Research
  </details>
   </li>  
   </p>
+     
  <p>
   <li>   <a href="/assets/DuboisMajewskaReig.pdf">Regulated Prices, Global Capacity, and Drug Shortages</a> – <em>with <a href="https://pierredubois.github.io/">Pierre Dubois</a> and  <a href="https://gosia-majewska.github.io/">Gosia Majewska</a>, 2026 (Submitted)</em>
   <br><small>Previously circulated as <em>Drug Shortages: Evidence from France</em>.</small>
