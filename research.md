@@ -7,7 +7,7 @@ title: Research
 </p> </h2>
 <ul>
  <p>
-  <li> Retention by Design: Long-term Contracts in Health Insurance (Job Market Paper). <em></em></li>
+  <li> <a href="/assets/Reig_jmp.pdf">Retention by Design: Long-term Contracts in Health Insurance </a> (Job Market Paper). <em></em></li>
   </p>
  <p>
   <li>   <a href="/assets/DuboisMajewskaReig.pdf">Regulated Prices, Global Capacity, and Drug Shortages</a> – <em>with <a href="https://pierredubois.github.io/">Pierre Dubois</a> and  <a href="https://gosia-majewska.github.io/">Gosia Majewska</a>, 2026 (Submitted)</em>
